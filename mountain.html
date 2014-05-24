@@ -18,6 +18,7 @@
     <script src="javascripts/bootstrap/scrollspy.js"></script>
     <script src="javascripts/bootstrap/tab.js"></script>
     <script src="javascripts/bootstrap/transition.js"></script>
+    <script src="javascripts/jquery.easing.1.3.js"></script>
     <script src="javascripts/scripts.js"></script>
     <script src="javascripts/parallax.js"></script>
   </head>
@@ -31,50 +32,61 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">CW</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Mission</a></li>
+              <li data-slide="1" class="active"><a href="#">CW</a></li>
+              <li data-slide="2"><a href="#">Mission</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">In the News <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Huffington Post</a></li>
-                  <li><a href="#">Daily Sun</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Somethin else</a></li>
+                  <li data-slide="3"><a href="#">Cornell Chronicle</a></li>
+                  <li data-slide="4"><a href="#">Daily Sun</a></li>
                 </ul>
               </li>
-              <li><a href="#">Exec</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Services</a></li>
-              <li class="dropdown">
+              <li data-slide="5"><a href="#">Exec</a></li>
+            <!-- </ul>
+            <ul class="nav navbar-nav navbar-right"> -->
+              <li data-slide="6"><a href="#">Services</a></li>
+              <!-- <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Testimonials <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Garrison</a></li>
                   <li><a href="#">And another guy</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Donate</a></li>
+              </li> -->
+              <li><a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=RX1C5wnT_BlHQadCbuXLmFHS9IyZ-NRrMgTXKU9nbhfHtvnrQ2KIJkeIvHW&dispatch=5885d80a13c0db1f8e263663d3faee8d6cdb53fcfca2b5941339e576d7e42259">Donate</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li data-slide="1"><a href="#">Back to top</a></li>
             </ul>
           </div> <!-- navbar-header -->
         </div> <!-- container-fluid -->
       </nav>
-    <section id="first" data-speed="-1" data-type="background">
+    <section id="first" data-speed="-1" data-type="background" data-slide="1">
       <div class="logo" data-type="sprite" data-speed="8" data-offsetY="100" data-Xposition="50%"></div>
     </section>
-    <section id="second" data-type="background" data-speed="5">
-      <div class="grid-1">
+    <section id="second" data-type="background" data-speed="5" data-slide="2">
+      <div class="grid">
         <div class="row">
-          <h2 class="col-md-offset-1">Our Mission</h2>
+          <h1 class="col-md-offset-1">Our Mission</h1>
+        </div>
+        <div class="row text-center">
+          <p class="col-md-8 col-md-offset-2">
+            Cayuga’s Watchers is a student-led 501(c)3 independent organization designed to mitigate the harms associated with high-risk drinking while promoting student safety at Cornell University.
+          </p>
+        </div>
+        <div class="row text-center">
+          <p class="col-md-8 col-md-offset-2">
+            We aim to become an established national model for combating high-risk drinking by promoting peer social responsibility at Cornell University.
+          </p>
         </div>
         <div class="three-col">
           <div class="row">
             <div class="col col-md-3 col-md-offset-1 operations missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Operations</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ut risus at egestas. Mauris et laoreet leo. Praesent venenatis velit eget diam fringilla egestas. Praesent ultricies sem eget ultricies mollis. Aliquam pulvinar felis nisl, at pharetra elit viverra eget. Pellentesque eu interdum lacus. Sed tellus felis, ultricies sed bibendum non, tristique ut ipsum. Curabitur quis lectus bibendum, pellentesque dolor id, sollicitudin lorem.
+                Cayuga’s Watchers recruits, hires, and trains students to anonymously attend campus social events anonymously at the express request of the hosting student organization. While on duty, Cayuga’s Watchers’ employees, or Watchers, engage event-goers using non-confrontational bystander intervention techniques in an effort to mitigate the harms associated with high-risk drinking, which include alcohol poisoning, sexual assault, and property damage. 
               </p>
               <div></div>
               <!-- <img src="images/party1.jpg"> -->
@@ -82,7 +94,16 @@
             <div class="col col-md-3 values missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Values</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ut risus at egestas. Mauris et laoreet leo. Praesent venenatis velit eget diam fringilla egestas. Praesent ultricies sem eget ultricies mollis. Aliquam pulvinar felis nisl, at pharetra elit viverra eget. Pellentesque eu interdum lacus. Sed tellus felis, ultricies sed bibendum non, tristique ut ipsum. Curabitur quis lectus bibendum, pellentesque dolor id, sollicitudin lorem.
+                <b>Confidential:</b> Cayuga’s Watchers commits to protect all information entrusted to us, including the identities of the organizations and individuals with whom we work. 
+              <p>
+              <p>
+                <b>Student-led:</b> We value our integration within the campus and maintain student leadership.
+              </p>
+              <p>
+                <b>Non-Confrontational:</b> Our methods are exclusively non-confrontational. Antagonism is never condoned as a method of engagement.
+              </p>
+              <p>
+                <b>Peer-to-peer:</b> We seek to foster a community bound by good citizenship and social responsibility, in which friends look after friends. 
               </p>
               <div></div>
               <!-- <img src="images/teamwork.jpg"> -->
@@ -90,7 +111,13 @@
             <div class="col col-md-3 goals missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Goals</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ut risus at egestas. Mauris et laoreet leo. Praesent venenatis velit eget diam fringilla egestas. Praesent ultricies sem eget ultricies mollis. Aliquam pulvinar felis nisl, at pharetra elit viverra eget. Pellentesque eu interdum lacus. Sed tellus felis, ultricies sed bibendum non, tristique ut ipsum. Curabitur quis lectus bibendum, pellentesque dolor id, sollicitudin lorem.
+                <b>Short Term:</b> Cayuga’s Watchers aims to combat the immediate dangers associated with high-risk drinking.
+              </p>
+              <p>
+                <b>Long Term:</b> Cayuga’s Watchers aims to replace campus social norms by emphasizing safe and responsible alcohol consumption.
+              </p>
+              <p>
+                <b>Ultimate Objective:</b> Ultimately, Cayuga’s Watchers, in conjunction with student and University support, endeavors to become an established national model for combating high risk drinking by emphasizing social responsibility and campus policies that target harm reduction.
               </p>
               <div></div>
               <!-- <img src="images/safety.jpg"> -->
@@ -100,31 +127,52 @@
       </div>
     </section>
     <section id="third" data-type="background" data-speed="6">
-      <div class="grid-2">
+      <div class="grid">
         <div class="row">
           <h2 class="col-md-offset-1">In the News</h2>
         </div>
-        <div class="row">
-          <div class="col-md-5 col-md-offset-1">
-            <button type="button" class="btn-primary btn-lg btn-block">Cayuga's Watchers aim for friendly intervention</button>
-            <div></div>
+        <section data-slide="3">
+          <div class="row">
+            <img src="images/chronicle_title.png">
           </div>
-          <div class="col-md-5">
-            <button type="button" class="btn-primary btn-lg btn-block">Cayuga's Watchers to Launch in October</button>
+          <div class="row">
+            <blockquote>
+              <a href="http://www.news.cornell.edu/stories/2013/11/cayugas-watchers-aim-friendly-intervention">
+                Arriving on campus her freshman year, Maria (not her real name) was struck by the number of parties that included alcohol. Now a sophomore, Maria is a charter member of the student-run organization Cayuga’s Watchers, which sends peer intervention teams to parties.
+              </a>
+            </blockquote>
           </div>
-        </div>
-        <div class="row top-margin">
-          <div class="col-md-5 col-md-offset-1">
-            <button type="button" class="btn-primary btn-lg btn-block">Cayuga's Watchers Expands Membership, Presence on Campus</button>
+        </section>
+        <section data-slide="4">
+          <div class="row">
+            <img src="images/sun_title.png">
           </div>
-          <div class="col-md-5">
-            <button type="button" class="btn-primary btn-lg btn-block">TRUSTEE VIEWPOINT: Changing Our High-Risk Drinking</button>
+          <div class="row">
+            <blockquote>
+              <a href="http://cornellsun.com/blog/2013/09/26/cayugas-watchers-to-launch-in-october/">
+                After several months of jumping through logistical hurdles, Cayuga’s Watchers — a student run campaign that aims to combat high-risk drinking through bystander intervention — will officially launch next month.
+              </a>
+            </blockquote>
           </div>
-        </div>
+          <div class="row">
+            <blockquote>
+              <a href="http://cornellsun.com/blog/2014/01/27/cayugas-watchers-expands-membership-presence-on-campus/">
+                Since launching in October, student-run nonprofit Cayuga’s Watchers has increased its presence on and off campus by helping classmates drink responsibly and preventing alcohol-related incidents, according to Eric Silverberg ’14, President of Cayuga’s Watchers.
+              </a>
+            </blockquote>
+          </div>
+          <div class="row">
+            <blockquote>
+              <a href="http://cornellsun.com/blog/2013/11/05/trustee-viewpoint-changing-our-high-risk-drinking-culture/">
+                Last week, Cayuga’s Watchers officially launched at Cornell. “Watchers” is a new organization, independent of the University and incorporated as a not-for-profit 501(c)(3), that partners with fraternities, sororities and student organizations to promote the safety of students at social events by reducing rates of high-risk drinking. 
+              </a>
+            </blockquote>
+          </div>
+        </section>
       </div>
     </section>
-    <section id="fourth" data-type="background" data-speed="6">
-      <div class="grid-3">
+    <section id="fourth" data-type="background" data-speed="6" data-slide="5">
+      <div class="grid">
         <div class="three-col">
           <div class="row">
             <h2 class="col-md-offset-1">Our Executive Board</h2>
@@ -200,15 +248,36 @@
         </div>
       </div>
     </section>
-    <section id="fifth">
+    <section id="fifth" data-slide="6">
       <div class="row">
-        <h2 class="col-md-offset-1">Services</h2>
+        <h2 class="col-md-offset-2">Services</h2>
+      </div>
+      <div class="grid">
+        <div class="row">
+          <h3>Prior to Event Day</h3>
+          <p>
+            Cornell University student organization planning to host a social event contacts Cayuga's Watchers to aid in promoting a fun and safe environment. A Cayuga’s Watchers representative will then work with the organization to coordinate logistics and assemble a student-led team to meet the needs of the event. 
+          </p>
+        </div>
+        <div class="row">
+          <h3>On Event Day</h3>
+          <p>
+            A Cayuga's Watchers event team arrives prior to the start of the event to acquaint themselves with hosting organization, review mutual expectations, and plan for the evening ahead. During event, a Cayuga's Watchers event team socializes with fellow partygoers while remaining anonymous, sober, and aware of their surroundings. If necessary, team member(s) engages fellow partygoers in a non-confrontational, peer-to-peer fashion in order to diffuse potentially harmful situations.
+          </p>
+        </div>
+        <div class="row">
+          <h3>Post-Event</h3>
+          <p>
+            A Cayuga's Watchers event team will note event details in a post-event evaluation form ---information that is strictly confidential and will aid in enhancing future services.
+          </p>
+        </div>
       </div>
     </section>
-    <section id="sixth">
+    <!-- <section id="sixth">
       <div class="row">
         <h2 class="col-md-offset-1">Testimonials</h2>
       </div>
-    </section>
+    </section> -->
   </body>
+  <footer></footer>
 </html>

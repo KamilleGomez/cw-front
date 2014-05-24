@@ -7891,7 +7891,46 @@ button.close {
     display: none !important;
   }
 }
+/* line 5, ../sass/styles.scss */
+.front {
+  background-image: url("../images/splash.png");
+}
+
 /* line 9, ../sass/styles.scss */
+.front {
+  text-align: center;
+  margin-top: 200px;
+}
+
+/* line 14, ../sass/styles.scss */
+.front h2 {
+  margin-top: 75px;
+  color: white;
+}
+/* line 18, ../sass/styles.scss */
+.front h2:hover {
+  cursor: pointer;
+}
+
+/* line 23, ../sass/styles.scss */
+.front a {
+  display: inline-block;
+  font-size: 150%;
+  color: black;
+  padding: 5px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+/* line 30, ../sass/styles.scss */
+.front a:first-child {
+  margin-right: 10px;
+}
+/* line 33, ../sass/styles.scss */
+.front a:hover {
+  background-color: white;
+}
+
+/* line 38, ../sass/styles.scss */
 .logo {
   background: url(../images/logo.png) 50% 100px no-repeat fixed;
   background-size: 600px;
@@ -7899,51 +7938,62 @@ button.close {
   min-height: 650px;
 }
 
-/* line 16, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 section {
   background-image: url("../images/crossword.png");
   background-position: 50% 0;
-  min-height: 650px;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 #first {
   background-image: url("../images/top.jpg");
+  background-position: 50% 0;
+  background-size: 100%;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
   box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
+  min-height: 650px;
 }
 
-/* line 31, ../sass/styles.scss */
-.grid-1 {
+/* line 62, ../sass/styles.scss */
+.grid {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+/* line 67, ../sass/styles.scss */
+#second .grid {
   padding: 50px 0;
 }
 
-/* line 37, ../sass/styles.scss */
-.grid-2 {
+/* line 71, ../sass/styles.scss */
+#third .grid {
   max-width: 700px;
-  margin: 0 auto;
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
+#fifth .grid {
+  max-width: 500px;
+}
+
+/* line 84, ../sass/styles.scss */
 .three-col .col {
   margin-right: 2.2%;
 }
-/* line 49, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .three-col .col .row:first-child {
   margin-left: 10%;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 .missions {
+  height: 450px;
   z-index: 2;
   border-radius: 10px;
 }
-/* line 57, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .missions div {
   border-radius: 10px;
   background-size: 150%;
@@ -7955,50 +8005,49 @@ section {
   position: absolute;
   z-index: -1;
 }
-/* line 68, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .missions p {
   opacity: 0;
+  color: white;
+}
+/* line 110, ../sass/styles.scss */
+.missions h3 {
+  color: white;
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 .operations div {
-  background: url("../images/party1.jpg");
+  background: url("../images/solo_cups.jpg");
+  background-size: 250%;
+  background-position: 50% 0;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .values div {
-  background: url("../images/teamwork.jpg");
+  background: url("../images/clocktower.jpg");
+  background-size: 200%;
+  background-position: 50% 0;
 }
 
-/* line 83, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .goals div {
   background: url("../images/safety.jpg");
   background-size: 100%;
 }
 
-/* line 88, ../sass/styles.scss */
-.front {
-  text-align: center;
-  margin-top: 200px;
-}
-
-/* line 93, ../sass/styles.scss */
-.front h1 {
-  font-size: 450%;
-}
-
-/* line 97, ../sass/styles.scss */
-.front h2:hover {
-  cursor: pointer;
-}
-
-/* line 101, ../sass/styles.scss */
-.front h2 {
-  padding: 5px;
-  border: solid medium blue;
-}
-
-/* line 106, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .top-margin {
   margin-top: 20px;
+}
+
+/* line 136, ../sass/styles.scss */
+#fifth p {
+  border-left: dotted purple medium;
+  padding-left: 20px;
+}
+
+/* line 141, ../sass/styles.scss */
+footer {
+  height: 100px;
+  background-image: url("../images/crossword.png");
 }
