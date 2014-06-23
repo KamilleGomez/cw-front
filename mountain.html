@@ -6,56 +6,43 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
-    <script src="javascripts/bootstrap/affix.js"></script>
+    <!--<script src="javascripts/bootstrap/affix.js"></script>
     <script src="javascripts/bootstrap/alert.js"></script>
     <script src="javascripts/bootstrap/button.js"></script>
     <script src="javascripts/bootstrap/carousel.js"></script>
-    <script src="javascripts/bootstrap/collapse.js"></script>
-    <script src="javascripts/bootstrap/dropdown.js"></script>
-    <script src="javascripts/bootstrap/modal.js"></script>
     <script src="javascripts/bootstrap/tooltip.js"></script>
     <script src="javascripts/bootstrap/popover.js"></script>
-    <script src="javascripts/bootstrap/scrollspy.js"></script>
     <script src="javascripts/bootstrap/tab.js"></script>
     <script src="javascripts/bootstrap/transition.js"></script>
-    <script src="javascripts/jquery.easing.1.3.js"></script>
+    <script src="javascripts/bootstrap/collapse.js"></script>
+    -->
+  <script src="javascripts/bootstrap/modal.js"></script>
+  <script src="javascripts/bootstrap/dropdown.js"></script>
+  <script src="javascripts/jquery.easing.1.3.js"></script>
     <script src="javascripts/scripts.js"></script>
     <script src="javascripts/parallax.js"></script>
+    <script src="javascripts/bootstrap/scrollspy.js"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="">
+  
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li data-slide="1" class="active"><a href="#">CW</a></li>
+              <li data-slide="1" ><a href="#" id="shield"><img src="images/shield.png" alt="shield"></a></li>
               <li data-slide="2"><a href="#">Mission</a></li>
+        <li data-slide="6"><a href="#">Services</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">In the News <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li data-slide="3"><a href="#">Cornell Chronicle</a></li>
                   <li data-slide="4"><a href="#">Daily Sun</a></li>
+                  <li data-slide="8"><a href="#">Huffington Post</a></li>
+                  <li data-slide="9"><a href="#">USA Today</a></li>
                 </ul>
               </li>
-              <li data-slide="5"><a href="#">Exec</a></li>
-            <!-- </ul>
-            <ul class="nav navbar-nav navbar-right"> -->
-              <li data-slide="6"><a href="#">Services</a></li>
-              <!-- <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">Testimonials <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Garrison</a></li>
-                  <li><a href="#">And another guy</a></li>
-                </ul>
-              </li> -->
-              <li><a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=RX1C5wnT_BlHQadCbuXLmFHS9IyZ-NRrMgTXKU9nbhfHtvnrQ2KIJkeIvHW&dispatch=5885d80a13c0db1f8e263663d3faee8d6cdb53fcfca2b5941339e576d7e42259">Donate</a></li>
+              <li data-slide="5"><a href="#">Executive Board</a></li>
+        <li data-slide="7"><a href="#">Support Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li data-slide="1"><a href="#">Back to top</a></li>
@@ -63,21 +50,31 @@
           </div> <!-- navbar-header -->
         </div> <!-- container-fluid -->
       </nav>
+  <a href="https://www.facebook.com/CayugasWatchers" target="_blank"><img id ="face" src="images/face.png" alt="facebook"></a>
+  <div id="donate">
+    <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="Z4YQ29XFR9HX2">
+      <input type="image" src="images/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="images/donate.png" width="1" height="1">
+    </form>
+  </div>
+  
     <section id="first" data-speed="-1" data-type="background" data-slide="1">
-      <div class="logo" data-type="sprite" data-speed="8" data-offsetY="100" data-Xposition="50%"></div>
+      <div class="logo" data-type="sprite" data-speed="8" data-offsetY="65" data-Xposition="50%"></div>
     </section>
     <section id="second" data-type="background" data-speed="5" data-slide="2">
       <div class="grid">
         <div class="row">
-          <h1 class="col-md-offset-1">Our Mission</h1>
+          <h1 class="col-md-offset-1">Mission</h1>
         </div>
-        <div class="row text-center">
-          <p class="col-md-8 col-md-offset-2">
+        <div class="row text-justify">
+          <p class="col-md-10 col-md-offset-1">
             Cayuga’s Watchers is a student-led 501(c)3 independent organization designed to mitigate the harms associated with high-risk drinking while promoting student safety at Cornell University.
           </p>
         </div>
-        <div class="row text-center">
-          <p class="col-md-8 col-md-offset-2">
+        <div class="row text-justify">
+          <p class="col-md-10 col-md-offset-1">
             We aim to become an established national model for combating high-risk drinking by promoting peer social responsibility at Cornell University.
           </p>
         </div>
@@ -85,7 +82,7 @@
           <div class="row">
             <div class="col col-md-3 col-md-offset-1 operations missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Operations</h3>
-              <p>
+              <p class="mission-boxes">
                 Cayuga’s Watchers recruits, hires, and trains students to anonymously attend campus social events anonymously at the express request of the hosting student organization. While on duty, Cayuga’s Watchers’ employees, or Watchers, engage event-goers using non-confrontational bystander intervention techniques in an effort to mitigate the harms associated with high-risk drinking, which include alcohol poisoning, sexual assault, and property damage. 
               </p>
               <div></div>
@@ -93,31 +90,21 @@
             </div>
             <div class="col col-md-3 values missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Values</h3>
-              <p>
-                <b>Confidential:</b> Cayuga’s Watchers commits to protect all information entrusted to us, including the identities of the organizations and individuals with whom we work. 
-              <p>
-              <p>
-                <b>Student-led:</b> We value our integration within the campus and maintain student leadership.
-              </p>
-              <p>
-                <b>Non-Confrontational:</b> Our methods are exclusively non-confrontational. Antagonism is never condoned as a method of engagement.
-              </p>
-              <p>
-                <b>Peer-to-peer:</b> We seek to foster a community bound by good citizenship and social responsibility, in which friends look after friends. 
+              <p class="mission-boxes">
+                <b><u>Confidential:</u></b> Cayuga’s Watchers commits to protect all information entrusted to us, including the identities of the organizations and individuals with whom we work. 
+                <br><b><u>Student-led:</u></b> We value our integration within the campus and maintain student leadership.
+                <br><b><u>Non-Confrontational:</u></b> Our methods are exclusively non-confrontational. Antagonism is never condoned as a method of engagement.
+                <br><b><u>Peer-to-peer:</u></b> We seek to foster a community bound by good citizenship and social responsibility, in which friends look after friends. 
               </p>
               <div></div>
               <!-- <img src="images/teamwork.jpg"> -->
             </div>
             <div class="col col-md-3 goals missions" data-speed="2" data-type="sprite">
               <h3 class="text-center">Goals</h3>
-              <p>
-                <b>Short Term:</b> Cayuga’s Watchers aims to combat the immediate dangers associated with high-risk drinking.
-              </p>
-              <p>
-                <b>Long Term:</b> Cayuga’s Watchers aims to replace campus social norms by emphasizing safe and responsible alcohol consumption.
-              </p>
-              <p>
-                <b>Ultimate Objective:</b> Ultimately, Cayuga’s Watchers, in conjunction with student and University support, endeavors to become an established national model for combating high risk drinking by emphasizing social responsibility and campus policies that target harm reduction.
+              <p class="mission-boxes">
+                <b><u>Short Term:</u></b> Cayuga’s Watchers aims to combat the immediate dangers associated with high-risk drinking.
+                <br><b><u>Long Term:</u></b> Cayuga’s Watchers aims to replace campus social norms by emphasizing safe and responsible alcohol consumption.
+                <br><b><u>Ultimate Objective:</u></b> Ultimately, Cayuga’s Watchers, in conjunction with student and University support, endeavors to become an established national model for combating high risk drinking by emphasizing social responsibility and campus policies that target harm reduction.
               </p>
               <div></div>
               <!-- <img src="images/safety.jpg"> -->
@@ -126,46 +113,95 @@
         </div>
       </div>
     </section>
-    <section id="third" data-type="background" data-speed="6">
+  <section id="fifth" data-slide="6" >
       <div class="grid">
-        <div class="row">
-          <h2 class="col-md-offset-1">In the News</h2>
+      <div class="row">
+      <h1 class="col-md-offset-1">Services</h1>
+      </div>
+        <div class="row col-md-offset-1 ">
+          <h3>Prior to Event Day</h3>
+          <p class="col-md-10">
+            Cornell University student organization planning to host a social event contacts Cayuga's Watchers to aid in promoting a fun and safe environment. A Cayuga’s Watchers representative will then work with the organization to coordinate logistics and assemble a student-led team to meet the needs of the event. 
+          </p>
         </div>
-        <section data-slide="3">
+        <div class="row col-md-offset-1">
+          <h3>On Event Day</h3>
+          <p class="col-md-10">
+            A Cayuga's Watchers event team arrives prior to the start of the event to acquaint themselves with hosting organization, review mutual expectations, and plan for the evening ahead. During event, a Cayuga's Watchers event team socializes with fellow partygoers while remaining anonymous, sober, and aware of their surroundings. If necessary, team member(s) engages fellow partygoers in a non-confrontational, peer-to-peer fashion in order to diffuse potentially harmful situations.
+          </p>
+        </div>
+        <div class="row col-md-offset-1">
+          <h3>Post-Event</h3>
+          <p class="col-md-10">
+            A Cayuga's Watchers event team will note event details in a post-event evaluation form ---information that is strictly confidential and will aid in enhancing future services.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="third" data-type="background" data-speed="6">
+    <div class="grid">
+    <div class="row">
+    <h1 class="col-md-offset-1">In the News</h1>
+    </div>
+        <section data-slide="3" class="col-md-offset-1">
           <div class="row">
-            <img src="images/chronicle_title.png">
+            <img  src="images/chronicle_title2.png">
           </div>
-          <div class="row">
-            <blockquote>
-              <a href="http://www.news.cornell.edu/stories/2013/11/cayugas-watchers-aim-friendly-intervention">
-                Arriving on campus her freshman year, Maria (not her real name) was struck by the number of parties that included alcohol. Now a sophomore, Maria is a charter member of the student-run organization Cayuga’s Watchers, which sends peer intervention teams to parties.
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://www.news.cornell.edu/stories/2013/11/cayugas-watchers-aim-friendly-intervention">
+               Arriving on campus her freshman year, Maria (not her real name) was struck by the number of parties that included alcohol. Now a sophomore, Maria is a charter member of the student-run organization Cayuga’s Watchers, which sends peer intervention teams to parties.
               </a>
             </blockquote>
           </div>
         </section>
-        <section data-slide="4">
+        <section data-slide="4"class="col-md-offset-1">
           <div class="row">
-            <img src="images/sun_title.png">
+            <img  src="images/sun_title2.png">
           </div>
-          <div class="row">
-            <blockquote>
-              <a href="http://cornellsun.com/blog/2013/09/26/cayugas-watchers-to-launch-in-october/">
-                After several months of jumping through logistical hurdles, Cayuga’s Watchers — a student run campaign that aims to combat high-risk drinking through bystander intervention — will officially launch next month.
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://cornellsun.com/blog/2013/09/26/cayugas-watchers-to-launch-in-october/">
+               After several months of jumping through logistical hurdles, Cayuga’s Watchers — a student run campaign that aims to combat high-risk drinking through bystander intervention — will officially launch next month.
               </a>
             </blockquote>
           </div>
-          <div class="row">
-            <blockquote>
-              <a href="http://cornellsun.com/blog/2014/01/27/cayugas-watchers-expands-membership-presence-on-campus/">
-                Since launching in October, student-run nonprofit Cayuga’s Watchers has increased its presence on and off campus by helping classmates drink responsibly and preventing alcohol-related incidents, according to Eric Silverberg ’14, President of Cayuga’s Watchers.
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://cornellsun.com/blog/2014/01/27/cayugas-watchers-expands-membership-presence-on-campus/">
+               Since launching in October, student-run nonprofit Cayuga’s Watchers has increased its presence on and off campus by helping classmates drink responsibly and preventing alcohol-related incidents, according to Eric Silverberg ’14, President of Cayuga’s Watchers.
               </a>
             </blockquote>
           </div>
-          <div class="row">
-            <blockquote>
-              <a href="http://cornellsun.com/blog/2013/11/05/trustee-viewpoint-changing-our-high-risk-drinking-culture/">
-                Last week, Cayuga’s Watchers officially launched at Cornell. “Watchers” is a new organization, independent of the University and incorporated as a not-for-profit 501(c)(3), that partners with fraternities, sororities and student organizations to promote the safety of students at social events by reducing rates of high-risk drinking. 
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://cornellsun.com/blog/2013/11/05/trustee-viewpoint-changing-our-high-risk-drinking-culture/">
+               Last week, Cayuga’s Watchers officially launched at Cornell. “Watchers” is a new organization, independent of the University and incorporated as a not-for-profit 501(c)(3), that partners with fraternities, sororities and student organizations to promote the safety of students at social events by reducing rates of high-risk drinking. 
               </a>
+            </blockquote>
+          </div>
+        </section>
+    <section data-slide="8" class="col-md-offset-1">
+          <div class="row">
+            <img  src="images/huff.png">
+          </div>
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://college.usatoday.com/2014/05/29/drop-that-beer-colleges-crack-down-on-alcohol-violations/">
+               They are called Cayuga's Watchers, Watchers for short -- Cornell students working undercover to prevent alcohol abuse and sexual misconduct at parties. Sober, specially trained to intervene in certain situations and paid for their role... 
+         </a>
+            </blockquote>
+          </div>
+        </section>
+    <section data-slide="9" class="col-md-offset-1">
+          <div class="row">
+            <img  src="images/usatoday.png">
+          </div>
+          <div class="row text-justify">
+            <blockquote class="col-md-10">
+              <a target="_blank" href="http://college.usatoday.com/2014/05/29/drop-that-beer-colleges-crack-down-on-alcohol-violations/">
+               Cornell, with the largest enrollment of the Ivy League schools, has taken significant strides to limit high-risk drinking through organizations like Cayuga’s Watchers that “promote responsible behavior and make students responsible for their peers,”
+        </a>
             </blockquote>
           </div>
         </section>
@@ -175,72 +211,72 @@
       <div class="grid">
         <div class="three-col">
           <div class="row">
-            <h2 class="col-md-offset-1">Our Executive Board</h2>
+            <h1 class="col-md-offset-1">Executive Board</h1>
           </div>
           <div class="row text-center">
             <div class="col-md-offset-1 col col-md-3">
-              <img src="images/sarah.jpg" class="img-circle img-thumbnail">
-              <h3>Sarah Reitman</h3>
+              <img src="images/sarah2.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_1">Sarah Reitman</a></h3>
               <h4>President</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/hannah.png" class="img-circle img-thumbnail">
-              <h3>Hannah James</h3>
+              <img src="images/hannah2.png" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_2">Hannah James</a></h3>
               <h4>Director of Internal Operations</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/noah.jpg" class="img-circle img-thumbnail">
-              <h3>Noah Liff</h3>
+              <img src="images/noah.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_3">Noah Liff</a></h3>
               <h4>Director of External Operations</h4>
             </div>
           </div>
           <div class="row text-center">
             <div class="col-md-offset-1 col col-md-3">
-              <img src="images/shane.jpg" class="img-circle img-thumbnail">
-              <h3>Shane Moore</h3>
+              <img src="images/shane2.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_4">Shane Moore</a></h3>
               <h4>VP of Scheduling</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/ian.jpg" class="img-circle img-thumbnail">
-              <h3>Ian Harris</h3>
+              <img src="images/ian2.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_5">Ian Harris</a></h3>
               <h4>VP of Outreach</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/mike.png" class="img-circle img-thumbnail">
-              <h3>Mike Ostro</h3>
+              <img src="images/mike2.png" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_6">Mike Ostro</a></h3>
               <h4>Associate Director of Engagement</h4>
             </div>
           </div>
           <div class="row text-center">
             <div class="col-md-offset-1 col col-md-3">
-              <img src="images/steven.jpg" class="img-circle img-thumbnail">
-              <h3>Steven Forman</h3>
+              <img src="images/steven3.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_7">Steven Forman</a></h3>
               <h4>VP of Recruitment</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/kendall.jpg" class="img-circle img-thumbnail">
-              <h3>Kendall Stokes</h3>
+              <img src="images/kendall2.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_8">Kendall Stokes</a></h3>
               <h4>VP of Training</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/kendallg.jpg" class="img-circle img-thumbnail">
-              <h3>Kendall Grant</h3>
+              <img src="images/kendallg2.jpg" class="img-rounded img-thumbnail">
+              <h3><a href="" data-toggle="modal" data-target="#myModal_9">Kendall Grant</a></h3>
               <h4>VP of Human Resources</h4>
             </div>
           </div>
           <div class="row text-center">
             <div class="col-md-offset-1 col col-md-3">
-              <img src="images/eric.png" class="img-circle img-thumbnail">
+              <img src="images/eric2.png" class="img-rounded img-thumbnail">
               <h3>Eric Silverberg</h3>
               <h4>Founder</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/john.png" class="img-circle img-thumbnail">
+              <img src="images/john2.png" class="img-rounded img-thumbnail">
               <h3>John Mueller</h3>
               <h4>Founder</h4>
             </div>
             <div class="col col-md-3">
-              <img src="images/adam.png" class="img-circle img-thumbnail">
+              <img src="images/adam2.png" class="img-rounded img-thumbnail">
               <h3>Adam Gitlin</h3>
               <h4>Founder</h4>
             </div>
@@ -248,36 +284,491 @@
         </div>
       </div>
     </section>
-    <section id="fifth" data-slide="6">
-      <div class="row">
-        <h2 class="col-md-offset-2">Services</h2>
-      </div>
+  <section id="seventh" data-type="background" data-speed="5" data-slide="7">
       <div class="grid">
         <div class="row">
-          <h3>Prior to Event Day</h3>
-          <p>
-            Cornell University student organization planning to host a social event contacts Cayuga's Watchers to aid in promoting a fun and safe environment. A Cayuga’s Watchers representative will then work with the organization to coordinate logistics and assemble a student-led team to meet the needs of the event. 
-          </p>
+          <h1 class="col-md-offset-1">Support Us</h1>
         </div>
-        <div class="row">
-          <h3>On Event Day</h3>
-          <p>
-            A Cayuga's Watchers event team arrives prior to the start of the event to acquaint themselves with hosting organization, review mutual expectations, and plan for the evening ahead. During event, a Cayuga's Watchers event team socializes with fellow partygoers while remaining anonymous, sober, and aware of their surroundings. If necessary, team member(s) engages fellow partygoers in a non-confrontational, peer-to-peer fashion in order to diffuse potentially harmful situations.
-          </p>
-        </div>
-        <div class="row">
-          <h3>Post-Event</h3>
-          <p>
-            A Cayuga's Watchers event team will note event details in a post-event evaluation form ---information that is strictly confidential and will aid in enhancing future services.
-          </p>
+        <div class="row text-justify">
+          <p class="col-md-8 col-md-offset-1">
+            The greatest challenge facing Cayuga's Watchers is funding. 
+      Although the organization adapted its service model from other collegiate 
+      bystander intervention programs, unlike its peer programs, through its 501(c)(3) 
+      status it operates entirely independent of Cornell University. As a not-for-profit 
+      that offers its service to the Cornell community free-of-charge, Cayuga's Watchers 
+      relies on the generosity of other 501(c)(3) organizations, charitable organizations, 
+      and individual contributors to provide the capital necessary to conduct its operations.
+      <br><br>For more information please refer to our <a href="pdfs/annualrep13-14.pdf" target="_blank">Annual Report</a>.
+    </p>
+      
+      <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="padding-top:25px;">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="Z4YQ29XFR9HX2">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
         </div>
       </div>
+    
     </section>
-    <!-- <section id="sixth">
+
+  <!-- <section id="sixth">
       <div class="row">
         <h2 class="col-md-offset-1">Testimonials</h2>
       </div>
     </section> -->
+  
+      <!--modal_1-->
+      <div class='modal fade' id='myModal_1' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>President</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/sarah2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Sarah Reitman '15</u></h3>  
+              <div class='bioleft'>
+                <p><b>Major:
+                <br>Hometown:
+                <br>Activities:
+                <br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Industrial and Labor Relations
+                <br>Weston, FL
+                <br>Greek Judicial Board, 
+                <br>Alpha Epsilon Phi
+                <br>Citi HR Summer Analyst,
+                <br>PNC HR Executive Services Intern
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_2-->
+      <div class='modal fade' id='myModal_2' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Director of Internal Operations</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/hannah2.png" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Hannah James '15</u></h3> 
+              <div class='bioleft'>
+                <p><b>Major: 
+                <br>Minor:
+                <br>Activities:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Human Biology, Health, and Society
+                <br>Global Health
+                <br>CU Medical Service,
+                <br>Global Health Ambassadors,
+                <br>Phi Felta Epsilon,
+                <br>Alphi Xi Delta
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_3-->
+      <div class='modal fade' id='myModal_3' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Director of External Operations</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/noah.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Noah Liff '15</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major: 
+                <br>Minor(s):
+                <br>Hometown:
+                <br>Activities:
+                <br>
+                <br>
+                <br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Industrial and Labor Relations
+                <br>Business, Real Estate
+                <br>New York City, NY
+                <br>Cornell Club Lacross,
+                <br>Alpha Kappa Psi,
+                <br>ILR Ambassadors
+                <br>J.P. Morgan Summer Analyst,
+                <br>BNY Mellon Securities Global Client Management,
+                <br>Fried Frank Legal Assistant Intern
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_4-->
+      <div class='modal fade' id='myModal_4' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>VP of Scheduling</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/shane2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Shane Moore '16</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Minor:
+                <br>Hometown:
+                <br>Activities:
+                <br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Computer Science
+                <br>Computing in the Arts
+                <br>Pennington, NJ 
+                <br>Club Tae Kwon Do
+                <br>Web Director for 
+                <br>WVBR/CornellRadio.com
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_5-->
+      <div class='modal fade' id='myModal_5' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>VP of Outreach</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/ian2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Ian Harris '16</u></h3> 
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Hometown:
+                <br>Activities:
+                <br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Policy Analysis and Management
+                <br>Parkland, FL
+                <br>Human Exology Representative 
+                <br>Vice President of Public Relations 
+                <br>for CU Student Assembly,
+                <br>PAM 2300 Teaching Assistant
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_6-->
+      <div class='modal fade' id='myModal_6' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Associate Director of Engagement</h2>
+            </div>
+            <div class='modal-body' style="height:350px">
+              <div class='biophoto' >
+                <img src="images/mike2.png" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Mike Ostro '15</u></h3> 
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Hometown:
+                <br>Activities:
+                <br><br><br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Hotel Administration
+                <br>London, England
+                <br>Manager of the Knoll 
+                <br>Investment Fund,
+                <br>Brother of Delta Chi
+                <br>Social Fraternity
+                <br>HR at Cobra Beer,
+                <br>F&B Intern at the One&only,Reeti Rah, Maldives
+                <br>Marketing at Molson Coors,
+                <br>Director of Ostro Minerala (UK) Ltd.
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_7-->
+      <div class='modal fade' id='myModal_7' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>VP of Recruitment</h2>
+            </div>
+            <div class='modal-body' style="height:350px">
+              <div class='biophoto'>
+                <img src="images/steven3.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Steven Forman '16</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Minor(s):
+                <br>Hometown:
+                <br>Activities:
+                <br><br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Policy Analysis and Management
+                <br>Business, Biology
+                <br>Boca Raton, Florida
+                <br>President and Founder of Afrika Tikkun
+                <br>Sigma Phi Epsilon,
+                <br>Club Water Polo VP,
+                <br>College Mentors for Kids,
+                <br>CYK Solicitors Intern,
+                <br>Intern and Research Assistant at
+                <br>North Middlesex University Hospital
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_8-->
+      <div class='modal fade' id='myModal_8' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>VP of Training</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto'>
+                <img src="images/kendall2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Kendal Stokes '15</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major: 
+                <br>Hometown:
+                <br>Activities:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Nutritional Sciences
+                <br>King of Prussia, PA
+                <br>Co-head NYC coordinator of
+                <br>Alternative Breaks @ CU Public Service Center,
+                <br>Attendant on Cornell EMS
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_9-->
+      <div class='modal fade' id='myModal_9' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>VP of Human Resources</h2>
+            </div>
+            <div class='modal-body' style="height:350px">
+              <div class='biophoto' >
+                <img src="images/kendallg2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Kendall Grant '16</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Minor:
+                <br>Hometown:
+                <br>Activities:
+                <br><br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Industrial and Labor Relations
+                <br>Business
+                <br>New York City, NY
+                <br>Women's Caucus,
+                <br>ILR Student Government,
+                <br>Cornell Republicans
+                <br>Mastercard Global Talent 
+                <br>Management & Development Intern,
+                <br>Communications Inter at Avon 
+                <br>Global Center,
+                <br>Reruiting Assistant at CU ILR
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_10-->
+      <div class='modal fade' id='myModal_10' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Founder</h2>
+            </div>
+            <div class='modal-body' style="height:300px">
+              <div class='biophoto' >
+                <img src="images/kendallg2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Eric Silverberg</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Minor:
+                <br>Hometown:
+                <br>Activities:
+                <br><br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Industrial and Labor Relations
+                <br>Business
+                <br>New York City, NY
+                <br>Women's Caucus,
+                <br>ILR Student Government,
+                <br>Cornell Republicans
+                <br>Mastercard Global Talent 
+                <br>Management & Development Intern,
+                <br>Communications Inter at Avon 
+                <br>Global Center,
+                <br>Reruiting Assistant at CU ILR
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_11-->
+      <div class='modal fade' id='myModal_11' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Founder</h2>
+            </div>
+            <div class='modal-body' style="height:350px">
+              <div class='biophoto' >
+                <img src="images/kendallg2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>John Mueller</u></h3> 
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Hometown:
+                <br>Occupation:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Psychology
+                <br>Belmar, NJ
+                <br>Executive vice President of
+                <br>Cornell University Assembly
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal_12-->
+      <div class='modal fade' id='myModal_12' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+        <div class='modal-dialog'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+              <h2 class='modal-title' id='myModalLabel'>Founder</h2>
+            </div>
+            <div class='modal-body' style="height:350px">
+              <div class='biophoto' >
+                <img src="images/kendallg2.jpg" class="img-rounded img-thumbnail">
+              </div>
+              <h3 style="text-align:left;"><u>Adam Gitlin '13</u></h3>  
+              <div class='bioleft' >
+                <p><b>Major:
+                <br>Hometown:
+                <br>Activities:
+                <br><br><br>Experience:
+                </b></p>
+              </div>
+              <div class='bioright' >
+                <p>Industrial and Labor Relations
+                <br>New York City, NY
+                </p>
+              </div>
+            </div>
+            <div class='modal-footer'>
+              <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
   </body>
   <footer></footer>
 </html>

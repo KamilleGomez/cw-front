@@ -3,93 +3,97 @@
 @import "bootstrap";
 
 .front {
-  background-image: url('../images/splash.png');
-}
-
-.front {
+  background-image: url("../images/splash.png");
   text-align: center;
   margin-top: 200px;
+  h2 {
+    margin-top: 75px;
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  a {
+    display: inline-block;
+    font-size: 150%;
+    color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    &:first-child {
+      margin-right: 10px;
+    }
+    &:hover {
+      background-color: white;
+    }
+  }
 }
 
-.front h2 {
-  // color: rgba(255,255,255,0.6);
-  margin-top: 75px;
+#shield {
+  padding: 0;
+}
+
+#donate{
+  position: fixed;
+  right: 100px;
+  top: 12px;
+  z-index: 1030;
+}
+
+#face{
+  position: fixed;
+  right: 210px;
+  top: 7px;
+  z-index: 1030;
+}
+
+.navbar-inverse .navbar-nav li a {
   color: white;
   &:hover {
-    cursor: pointer;
-  }
-}
-
-.front a {
-  display: inline-block;
-  font-size: 150%;
-  color: black;
-  padding: 5px;
-  width: 200px;
-  background-color: rgba(255,255,255,0.6);
-  &:first-child {
-    margin-right: 10px;
-  }
-  &:hover {
-    background-color: white;
+    background-color: black;
   }
 }
 
 .logo {
-  background: url(../images/logo.png) 50% 100px no-repeat fixed;
+  background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
   background-size: 600px;
-  top:100px;
+  top: 65px;
   min-height: 650px;
 }
 
 section {
-  background-image: url('../images/crossword.png');
+  background-image: url("../images/crossword.png");
   background-position: 50% 0;
 }
 
 #first {
-  background-image: url('../images/top.jpg');
+  background-image: url("../images/cover5.jpg");
+  background-size: cover;
+  background-repeat:no-repeat,repeat;
   background-position: 50% 0;
-  background-size: 100%;
-  border-top: 1px solid rgba(255,255,255,0.3);
-  border-bottom: 1px solid rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 -10px 50px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 -10px 50px rgba(0,0,0,0.5);
-  box-shadow: 0 -10px 50px rgba(0,0,0,0.5);
-  min-height: 650px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
+  height: 500px;
 }
 
 .grid {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-#second .grid {
-  padding: 50px 0;
-}
-
-#third .grid {
-  max-width: 700px;
-}
-
-#fifth .grid {
-  max-width: 500px;
-}
-
-// #fourth {
-//   background-image: image-url('stardust.png');
-//   color: white;
-// }
+  }
 
 .three-col .col {
   margin-right: 2.2%;
-  .row:first-child {
+  padding-top:5px;
+  &:first-child {
     margin-left: 10%;
   }
 }
 
 .missions {
-  height:450px;
+  height: 450px;
   z-index: 2;
   border-radius: 10px;
   div {
@@ -101,7 +105,7 @@ section {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
   }
   p {
     opacity: 0;
@@ -112,20 +116,21 @@ section {
   }
 }
 
+
 .operations div {
-  background: url('../images/solo_cups.jpg');
+  background: url("../images/solo_cups.jpg");
   background-size: 250%;
   background-position: 50% 0;
 }
 
 .values div {
-  background: url('../images/clocktower.jpg');
+  background: url("../images/clocktower.jpg");
   background-size: 200%;
   background-position: 50% 0;
 }
 
 .goals div {
-  background: url('../images/safety.jpg');
+  background: url("../images/stairs.jpg");
   background-size: 100%;
 }
 
@@ -134,11 +139,30 @@ section {
 }
 
 #fifth p {
-  border-left: dotted purple medium;
+  border-left: 2px solid #045FB4;
   padding-left: 20px;
 }
 
+.mission-boxes{
+  text-align:left;
+  font-size:15px;
+}
+.bioleft{
+  width:100px;
+  height:250px;
+  float:left;
+}
+.biophoto{
+  float:left;
+  width:190px;
+  margin-right:10px;
+}
+.modal-title{
+  text-align:center;
+}
+
+
 footer {
   height: 100px;
-  background-image: url('../images/crossword.png')
+  background-image: url("../images/crossword.png");
 }
