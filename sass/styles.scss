@@ -33,24 +33,26 @@
   padding: 0;
 }
 
-#donate{
-  position: fixed;
-  right: 100px;
-  top: 12px;
-  z-index: 1030;
+#face {
+  padding: 8px;
+  padding-right: 15px;
 }
 
-#face{
-  position: fixed;
-  right: 210px;
-  top: 7px;
-  z-index: 1030;
+#donate {
+  padding-top: 15px;
 }
 
 .navbar-inverse .navbar-nav li a {
   color: white;
   &:hover {
     background-color: black;
+  }
+}
+
+.dropdown-menu li a {
+  color: black !important;
+  &:hover {
+    background-color: $gray-lighter !important;
   }
 }
 
@@ -116,6 +118,9 @@ section {
   }
 }
 
+blockquote a {
+  color: black;
+}
 
 .operations div {
   background: url("../images/solo_cups.jpg");
@@ -159,6 +164,11 @@ section {
 }
 .modal-title{
   text-align:center;
+}
+.who {
+  width: 75%;
+  margin-right: auto;
+  margin-left: 12%;
 }
 
 

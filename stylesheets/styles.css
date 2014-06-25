@@ -1622,7 +1622,7 @@ p {
   font-weight: 200;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 62, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
     font-size: 21px;
@@ -1846,7 +1846,7 @@ dd {
 .dl-horizontal dd:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 201, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -2019,13 +2019,13 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 10, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 3px) {
   /* line 10, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
     width: 970px;
@@ -2338,7 +2338,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 33, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -2599,7 +2599,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 3px) {
   /* line 33, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -3842,7 +3842,7 @@ select[multiple].input-lg,
   color: #737373;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 363, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
@@ -3933,7 +3933,7 @@ select[multiple].input-lg,
   padding-top: 7px;
   padding-bottom: 7px;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 463, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -4428,7 +4428,7 @@ tbody.collapse.in {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 204, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4956,7 +4956,7 @@ tbody.collapse.in {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 177, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -4985,7 +4985,7 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 206, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -5033,7 +5033,7 @@ tbody.collapse.in {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 11, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 4px;
@@ -5049,7 +5049,7 @@ tbody.collapse.in {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 31, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -5078,7 +5078,7 @@ tbody.collapse.in {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 50, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5108,7 +5108,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
-@media (max-width: 480px) and (orientation: landscape) {
+@media (max-width: 1px) and (orientation: landscape) {
   /* line 92, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -5124,7 +5124,7 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 109, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -5140,7 +5140,7 @@ tbody.collapse.in {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 128, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5155,7 +5155,7 @@ tbody.collapse.in {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 139, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5188,7 +5188,7 @@ tbody.collapse.in {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 177, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -5223,7 +5223,7 @@ tbody.collapse.in {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 189, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5265,7 +5265,7 @@ tbody.collapse.in {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 228, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5286,7 +5286,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 288, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5315,7 +5315,7 @@ tbody.collapse.in {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 302, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5367,7 +5367,7 @@ tbody.collapse.in {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 374, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
@@ -5935,7 +5935,7 @@ a.badge:hover, a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 2px) {
   /* line 6, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron {
     padding-top: 48px;
@@ -7027,7 +7027,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 2px) {
   /* line 133, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -7045,7 +7045,7 @@ button.close {
     width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 3px) {
   /* line 146, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
@@ -7508,7 +7508,7 @@ button.close {
   text-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 2px) {
   /* line 214, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -7672,7 +7672,7 @@ button.close {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 2px) and (max-width: 991px) {
   /* line 7, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -7694,28 +7694,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 2px) and (max-width: 991px) {
   /* line 67, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 2px) and (max-width: 991px) {
   /* line 72, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 2px) and (max-width: 991px) {
   /* line 77, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 3px) and (max-width: 1199px) {
   /* line 7, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md {
     display: block !important;
@@ -7737,21 +7737,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 3px) and (max-width: 1199px) {
   /* line 86, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 3px) and (max-width: 1199px) {
   /* line 91, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 3px) and (max-width: 1199px) {
   /* line 96, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block {
     display: inline-block !important;
@@ -7807,13 +7807,13 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 2px) and (max-width: 991px) {
   /* line 18, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 3px) and (max-width: 1199px) {
   /* line 18, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-md {
     display: none !important;
@@ -7930,31 +7930,35 @@ button.close {
 }
 
 /* line 36, ../sass/styles.scss */
-#donate {
-  position: fixed;
-  right: 100px;
-  top: 12px;
-  z-index: 1030;
-}
-
-/* line 43, ../sass/styles.scss */
 #face {
-  position: fixed;
-  right: 210px;
-  top: 7px;
-  z-index: 1030;
+  padding: 8px;
+  padding-right: 15px;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
+#donate {
+  padding-top: 15px;
+}
+
+/* line 45, ../sass/styles.scss */
 .navbar-inverse .navbar-nav li a {
   color: white;
 }
-/* line 52, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 .navbar-inverse .navbar-nav li a:hover {
   background-color: black;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
+.dropdown-menu li a {
+  color: black !important;
+}
+/* line 54, ../sass/styles.scss */
+.dropdown-menu li a:hover {
+  background-color: #eeeeee !important;
+}
+
+/* line 59, ../sass/styles.scss */
 .logo {
   background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
   background-size: 600px;
@@ -7962,13 +7966,13 @@ button.close {
   min-height: 650px;
 }
 
-/* line 64, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 section {
   background-image: url("../images/crossword.png");
   background-position: 50% 0;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #first {
   background-image: url("../images/cover5.jpg");
   background-size: cover;
@@ -7982,29 +7986,29 @@ section {
   height: 500px;
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 .grid {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .three-col .col {
   margin-right: 2.2%;
   padding-top: 5px;
 }
-/* line 90, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .three-col .col:first-child {
   margin-left: 10%;
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 .missions {
   height: 450px;
   z-index: 2;
   border-radius: 10px;
 }
-/* line 99, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .missions div {
   border-radius: 10px;
   background-size: 150%;
@@ -8016,73 +8020,85 @@ section {
   position: absolute;
   z-index: -1;
 }
-/* line 110, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .missions p {
   opacity: 0;
   color: white;
 }
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .missions h3 {
   color: white;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
+blockquote a {
+  color: black;
+}
+
+/* line 125, ../sass/styles.scss */
 .operations div {
   background: url("../images/solo_cups.jpg");
   background-size: 250%;
   background-position: 50% 0;
 }
 
-/* line 126, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .values div {
   background: url("../images/clocktower.jpg");
   background-size: 200%;
   background-position: 50% 0;
 }
 
-/* line 132, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .goals div {
   background: url("../images/stairs.jpg");
   background-size: 100%;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 .top-margin {
   margin-top: 20px;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 #fifth p {
   border-left: 2px solid #045FB4;
   padding-left: 20px;
 }
 
-/* line 146, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 .mission-boxes {
   text-align: left;
   font-size: 15px;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .bioleft {
   width: 100px;
   height: 250px;
   float: left;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .biophoto {
   float: left;
   width: 190px;
   margin-right: 10px;
 }
 
-/* line 160, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .modal-title {
   text-align: center;
 }
 
-/* line 165, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
+.who {
+  width: 75%;
+  margin-right: auto;
+  margin-left: 12%;
+}
+
+/* line 175, ../sass/styles.scss */
 footer {
   height: 100px;
   background-image: url("../images/crossword.png");
