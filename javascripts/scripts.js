@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-
-  var navs = $('nav').find('li');
+  /* Implementation of scroll-navigation */
+  var navs = $('nav').find('li:not(.extern)');
   button = $('.button');
   myWindow = $(window);
   htmlBody = $('html,body');
@@ -24,6 +24,8 @@ $(document).ready(function() {
     goToByScroll(dataslide);
   });
 
+
+  /* Shows text descriptions of mission categories on hover */
   var oldColor = $('.goals').css('backgroundColor');
   $('.goals').hover(
     function() {
@@ -60,4 +62,9 @@ $(document).ready(function() {
       $('p', this).animate({ opacity: 0.0 }, 'medium');
       $(this).animate({ backgroundColor: 'rgba(0, 0, 0, 0.0)' }, 'medium');
   });
+
+  /* Accordion */
+  if($("#accordion").length > 0){
+    $("#accordion").accordion({heightStyle: "content"});
+  }
 });

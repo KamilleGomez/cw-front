@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+    <script src="javascripts/jquery-ui-1.10.4.custom.min.js"></script>
     <script src="javascripts/bootstrap/modal.js"></script>
     <script src="javascripts/bootstrap/dropdown.js"></script>
     <script src="javascripts/jquery.easing.1.3.js"></script>
@@ -15,149 +16,136 @@
   </head>
   <body data-spy="scroll" data-target="">
   
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li data-slide="1" ><a href="#" id="shield"><img src="images/shield.png" alt="shield"></a></li>
-        <li data-slide="2"><a href="#">Who?</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">What? <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li data-slide="3"><a href="#">Procedures</a></li>
-            <li data-slide="4"><a href="#">FAQ</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">How? <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li data-slide="5"><a href="#">Sign Up</a></li>
-            <li data-slide="5"><a href="#">Request Us at an Event</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a id="face" href="https://www.facebook.com/CayugasWatchers" target="_blank">
-            <img src="images/face.png" alt="facebook">
-          </a>
-        </li>
-        <li>
-          <div id="donate">
-            <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="Z4YQ29XFR9HX2">
-              <input type="image" src="images/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="images/donate.png" width="1" height="1">
-            </form>
-          </div>
-        </li>
-        <li data-slide="1"><a href="#">Back to top</a></li>
-      </ul>
-    </div> <!-- navbar-header -->
-  </nav>
-  <section id="first" data-speed="-1" data-type="background" data-slide="1">
-    <div class="logo" data-type="sprite" data-speed="8" data-offsetY="65" data-Xposition="50%"></div>
-  </section>
-  <section id="second" data-type="background" data-speed="5" data-slide="2">
-    <div class="grid">
-      <div class="row">
-        <h1 class="col-md-offset-1">Who are Cayuga's Watchers?</h1>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="extern"><a href="index.html" id="shield"><img src="images/shield.png" alt="shield"></a></li>
+          <li data-slide="2"><a href="#">Who?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">What? <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li data-slide="3"><a href="#">Procedures</a></li>
+              <li data-slide="4"><a href="#">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">How? <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li data-slide="5"><a href="#">Sign Up</a></li>
+              <li data-slide="5"><a href="#">Request Us at an Event</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="extern">
+            <a id="face" href="https://www.facebook.com/CayugasWatchers" target="_blank">
+              <img src="images/face.svg" width="40" alt="facebook">
+            </a>
+          </li>
+          <li class="extern">
+            <div id="donate">
+              <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="Z4YQ29XFR9HX2">
+                <input type="image" src="images/donate-button.png" width="80" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+            </div>
+          </li>
+          <li data-slide="1"><a href="#">Back to top</a></li>
+        </ul>
+      </div> <!-- navbar-header -->
+    </nav>
+    <section id="first" data-speed="-1" data-type="background" data-slide="1">
+      <div class="logo" data-type="sprite" data-speed="8" data-offsetY="65" data-Xposition="50%"></div>
+    </section>
+    <section id="second" data-type="background" data-speed="5" data-slide="2">
+      <div class="grid">
+        <div class="row">
+          <h1 class="col-md-offset-1">Who are Cayuga's Watchers?</h1>
+        </div>
+<!--         <div class="row">
+          <img src="images/who.jpg" class="img-rounded img-thumbnail who">
+        </div> -->
+        <div class="row text-justify">
+          <p class="col-md-10 col-md-offset-1">
+            Cayuga’s Watchers is a student-led, independent organization designed to provide another set of trained eyes and ears for the host of a social event. We provide an additional layer of safety for party-goers and hosts alike, helping everyone to keep the party going.
+          </p>
+        </div>
       </div>
-      <div class="row">
-        <img src="images/who.jpg" class="img-rounded img-thumbnail who">
+    </section>
+    <section id="fifth" data-slide="3">
+      <div class="grid">
+        <div class="row">
+          <h1 class="col-md-offset-1">What Can We Do For You?</h1>
+        </div>
+        <div class="row col-md-offset-1">
+          <h3>Prior to Event Day</h3>
+          <p class="col-md-10">
+            Cornell University student organization planning to host a social event contacts Cayuga's Watchers to aid in promoting a fun and safe environment. A Cayuga’s Watchers representative will then work with the organization to coordinate logistics and assemble a student-led team to meet the needs of the event. 
+          </p>
+        </div>
+        <div class="row col-md-offset-1">
+          <h3>On Event Day</h3>
+          <p class="col-md-10">
+            A Cayuga's Watchers event team arrives prior to the start of the event to acquaint themselves with hosting organization, review mutual expectations, and plan for the evening ahead. During event, a Cayuga's Watchers event team socializes with fellow partygoers while remaining anonymous, sober, and aware of their surroundings. If necessary, team member(s) engages fellow partygoers in a non-confrontational, peer-to-peer fashion in order to diffuse potentially harmful situations.
+          </p>
+        </div>
+        <div class="row col-md-offset-1">
+          <h3>Post-Event</h3>
+          <p class="col-md-10">
+            A Cayuga's Watchers event team will note event details in a post-event evaluation form ---information that is strictly confidential and will aid in enhancing future services.
+          </p>
+        </div>
       </div>
-      <div class="row text-justify">
-        <p class="col-md-10 col-md-offset-1">
-          Cayuga’s Watchers is a student-led, independent organization designed to provide another set of trained eyes an ears for the host of a social event. We provide an additional layer of safety for party-goers and hosts alike, helping everyone to keep the party going.
-        </p>
+    </section>
+    <section data-slide="4">
+      <div class="grid">
+        <div class="row">
+          <h1 class="col-md-offset-1">Frequently Asked Questions</h1>
+        </div>
+        <div id="accordion">
+          <h2 class="col-md-offset-1">Is there a fee for hiring Cayuga's Watchers?</h2>
+          <blockquote class="col-md-offset-1">
+            Cayuga's Watchers is a free service offered to student organizations from the Cornell community.
+          </blockquote>
+          <h2 class="col-md-offset-1">What's the difference between Cayuga's Watchers and sober monitors?</h2>
+          <blockquote class="col-md-offset-1">
+            Sober monitors and Cayuga's Watchers serve different functions at campus events. Sober monitors typically wear bright shirts and are easily identifiable to students. They typically guard doors, entrances, and other areas of the house. They largely serve an enforcement mechanism.
+            <br><br>
+            Members of Cayuga's Watchers undergo far more extensive training and are blended into the party environment. Their anonymity affords them the opportunity to engage other partygoers in a non-confrontational and effective manner. Cayuga's Watchers serves a harm reduction mechanism.
+          </blockquote>
+          <h2 class="col-md-offset-1">Who will be working my event?</h2>
+          <blockquote class="col-md-offset-1">
+            In an effort to guarantee the anonymity of its service, Cayuga's Watchers aims to create an event team that is representative of the Cornell community. Teams are determined based on employee availability, experience, and affiliation with student organization. For instance, we endeavor to have each event team comprised of at least one member from our worker pool who is also a member of a hosting organization to ensure effective communication between the event team and host.
+          </blockquote>
+          <h2 class="col-md-offset-1">Where will the Watchers be during my event?</h2>
+          <blockquote class="col-md-offset-1">
+            Areas to be monitored at an event will be designated by the hosting organization.
+          </blockquote>
+          <h2 class="col-md-offset-1">Who do the Watchers report to before, during, and after an event?</h2>
+          <blockquote class="col-md-offset-1">
+            Event teams coordinate with our Director of Operations prior to and after an event. During an event, event teams interact with leadership from the hosting organization -- typically a president, social chair, or risk manager -- throughout the night to ensure safety and success. 
+          </blockquote>
+          <h2 class="col-md-offset-1">Why become an employee of Cayuga's Watchers?</h2>
+          <blockquote class="col-md-offset-1">
+            <ol>
+              <li><b>Great Pay:</b> Employees are paid $10/hour.</li>
+              <li><b>Flexible Schedule:</b> Employees can design their own work schedule and work events hosted by their own organizations.</li>
+              <li><b>Safeguard Student Health and Wellbeing:</b> Employees look after the safety of their peers.</li>
+            </ol> 
+          </blockquote>
+          <h2 class="col-md-offset-1">Why use Cayuga's Watchers at your next event?</h2>
+          <blockquote class="col-md-offset-1">
+            <ol>
+              <li><b>Free Service:</b> It comes at no cost to your organization ot enlist the help of Cayuga's Watchers at your social events.</li>
+              <li><b>Mitigate Risk:</b> All employees are trained to identify the immediate dangers associoted with high-risk drinking.</li>
+              <li><b>Confidential:</b> All information relating to the event is completely confidential.</li>
+              <li><b>Anytime, Anywhere:</b> Cayuga's Watchers will work at events on and off-campus. Additionally, we will service social events registered with Cornell University as well as unsanctioned events.</li>
+            </ol> 
+          </blockquote>
+        </div>
       </div>
-    </div>
-  </section>
-  <section id="fifth" data-slide="3">
-    <div class="grid">
-      <div class="row">
-        <h1 class="col-md-offset-1">What Can We Do For You?</h1>
-      </div>
-      <div class="row col-md-offset-1">
-        <h3>Prior to Event Day</h3>
-        <p class="col-md-10">
-          Cornell University student organization planning to host a social event contacts Cayuga's Watchers to aid in promoting a fun and safe environment. A Cayuga’s Watchers representative will then work with the organization to coordinate logistics and assemble a student-led team to meet the needs of the event. 
-        </p>
-      </div>
-      <div class="row col-md-offset-1">
-        <h3>On Event Day</h3>
-        <p class="col-md-10">
-          A Cayuga's Watchers event team arrives prior to the start of the event to acquaint themselves with hosting organization, review mutual expectations, and plan for the evening ahead. During event, a Cayuga's Watchers event team socializes with fellow partygoers while remaining anonymous, sober, and aware of their surroundings. If necessary, team member(s) engages fellow partygoers in a non-confrontational, peer-to-peer fashion in order to diffuse potentially harmful situations.
-        </p>
-      </div>
-      <div class="row col-md-offset-1">
-        <h3>Post-Event</h3>
-        <p class="col-md-10">
-          A Cayuga's Watchers event team will note event details in a post-event evaluation form ---information that is strictly confidential and will aid in enhancing future services.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section data-slide="4">
-    <div class="grid">
-      <div class="row">
-        <h1 class="col-md-offset-1">Frequently Asked Questions</h1>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Is there a fee for hiring Cayuga's Watchers?</h2>
-        <blockquote>
-          Cayuga's Watchers is a free service offered to student organizations from the Cornell community.
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>What's the difference between Cayuga's Watchers and sober monitors?</h2>
-        <blockquote>
-          Sober monitors and Cayuga's Watchers serve different functions at campus events. Sober monitors typically wear bright shirts and are easily identifiable to students. They typically guard doors, entrances, and other areas of the house. They largely serve an enforcement mechanism.
-          <br><br>
-          Members of Cayuga's Watchers undergo far more extensive training and are blended into the party environment. Their anonymity affords them the opportunity to engage other partygoers in a non-confrontational and effective manner. Cayuga's Watchers serves a harm reduction mechanism.
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Who will be working my event?</h2>
-        <blockquote>
-          In an effort to guarantee the anonymity of its service, Cayuga's Watchers aims to create an event team that is representative of the Cornell community. Teams are determined based on employee availability, experience, and affiliation with student organization. For instance, we endeavor to have each event team comprised of at least one member from our worker pool who is also a member of a hosting organization to ensure effective communication between the event team and host.
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Where will the Watchers be during my event?</h2>
-        <blockquote>
-          Areas to be monitored at an event will be designated by the hosting organization.
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Who de the Watchers report to before, during, and after an event?</h2>
-        <blockquote>
-          Event teams coordinate with our Director of Operations prior to and after an event. During an event, event teams interact with leadership from the hosting organization -- typically a president, social chair, or risk manager -- throughout the night to ensure safety and success. 
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Why become an employee of Cayuga's Watchers?</h2>
-        <blockquote>
-          <ol>
-            <li><b>Great Pay:</b> Employees are paid $10/hour.</li>
-            <li><b>Flexible Schedule:</b> Employees can design their own work schedule and work events hosted by their own organizations.</li>
-            <li><b>Safeguard Student Health and Wellbeing:</b> Employees look after the safety of their peers.</li>
-          </ol> 
-        </blockquote>
-      </div>
-      <div class="row col-md-offset-1">
-        <h2>Why use Cayuga's Watchers at your next event?</h2>
-        <blockquote>
-          <ol>
-            <li><b>Free Service:</b> It comes at no cost to your organization ot enlist the help of Cayuga's Watchers at your social events.</li>
-            <li><b>Mitigate Risk:</b> All employees are trained to identify the immediate dangers associoted with high-risk drinking.</li>
-            <li><b>Confidential:</b> All information relating to the event is completely confidential.</li>
-            <li><b>Anytime, Anywhere:</b> Cayuga's Watchers will work at events on and off-campus. Additionally, we will service social events registered with Cornell University as well as unsanctioned events.</li>
-          </ol> 
-        </blockquote>
-      </div>
-    </div>
-  </section>
+    </section>
     <section id="third" data-type="background" data-speed="6" data-slide="5">
     <div class="grid">
       <div class="row">

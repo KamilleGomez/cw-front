@@ -34,12 +34,11 @@
 }
 
 #face {
-  padding: 8px;
-  padding-right: 15px;
+  padding: 5px 15px;
 }
 
 #donate {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -57,10 +56,22 @@
 }
 
 .logo {
-  background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
+  background: url(../images/logo.png) 50% 65px no-repeat fixed;
   background-size: 600px;
   top: 65px;
   min-height: 650px;
+}
+
+.front .logo {
+  background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
+}
+
+.ui-state-focus {
+  outline: none;
+}
+
+.ui-state-hover {
+  cursor: pointer;
 }
 
 section {

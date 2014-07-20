@@ -7931,48 +7931,62 @@ button.close {
 
 /* line 36, ../sass/styles.scss */
 #face {
-  padding: 8px;
-  padding-right: 15px;
+  padding: 5px 15px;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 #donate {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .navbar-inverse .navbar-nav li a {
   color: white;
 }
-/* line 47, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .navbar-inverse .navbar-nav li a:hover {
   background-color: black;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .dropdown-menu li a {
   color: black !important;
 }
-/* line 54, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .dropdown-menu li a:hover {
   background-color: #eeeeee !important;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .logo {
-  background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
+  background: url(../images/logo.png) 50% 65px no-repeat fixed;
   background-size: 600px;
   top: 65px;
   min-height: 650px;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
+.front .logo {
+  background: url(../images/logo_white.png) 50% 65px no-repeat fixed;
+}
+
+/* line 69, ../sass/styles.scss */
+.ui-state-focus {
+  outline: none;
+}
+
+/* line 73, ../sass/styles.scss */
+.ui-state-hover {
+  cursor: pointer;
+}
+
+/* line 77, ../sass/styles.scss */
 section {
   background-image: url("../images/crossword.png");
   background-position: 50% 0;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 #first {
   background-image: url("../images/cover5.jpg");
   background-size: cover;
@@ -7986,29 +8000,29 @@ section {
   height: 500px;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .grid {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .three-col .col {
   margin-right: 2.2%;
   padding-top: 5px;
 }
-/* line 92, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .three-col .col:first-child {
   margin-left: 10%;
 }
 
-/* line 97, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .missions {
   height: 450px;
   z-index: 2;
   border-radius: 10px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .missions div {
   border-radius: 10px;
   background-size: 150%;
@@ -8020,85 +8034,85 @@ section {
   position: absolute;
   z-index: -1;
 }
-/* line 112, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .missions p {
   opacity: 0;
   color: white;
 }
-/* line 116, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .missions h3 {
   color: white;
 }
 
-/* line 121, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 blockquote a {
   color: black;
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .operations div {
   background: url("../images/solo_cups.jpg");
   background-size: 250%;
   background-position: 50% 0;
 }
 
-/* line 131, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 .values div {
   background: url("../images/clocktower.jpg");
   background-size: 200%;
   background-position: 50% 0;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .goals div {
   background: url("../images/stairs.jpg");
   background-size: 100%;
 }
 
-/* line 142, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .top-margin {
   margin-top: 20px;
 }
 
-/* line 146, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 #fifth p {
   border-left: 2px solid #045FB4;
   padding-left: 20px;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .mission-boxes {
   text-align: left;
   font-size: 15px;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .bioleft {
   width: 100px;
   height: 250px;
   float: left;
 }
 
-/* line 160, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .biophoto {
   float: left;
   width: 190px;
   margin-right: 10px;
 }
 
-/* line 165, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .modal-title {
   text-align: center;
 }
 
-/* line 168, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 .who {
   width: 75%;
   margin-right: auto;
   margin-left: 12%;
 }
 
-/* line 175, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 footer {
   height: 100px;
   background-image: url("../images/crossword.png");
